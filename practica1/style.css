@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0fa;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ba8ff5, #583f7b);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #4d386f;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e6cfff;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #7456a6;
+    margin-bottom: 18px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule th {
+    background-color: #7456a6;
+    color: white;
+    padding: 12px;
+}
+
+.schedule td {
+    border: 1px solid #d5c8e5;
+    background-color: #faf7fd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    min-width: 100px;
+    height: 100px;
+}
+
+.schedule td p {
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+.schedule td small {
+    color: #21054e;
+    font-size: 11px;
+}
+
+.schedule td b {
+    color: #684b91;
+}
+
+.schedule hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #4d386f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px;
+}
